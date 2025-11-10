@@ -63,12 +63,12 @@ indent-style = "space"
 [tool.pyright]
 pythonVersion = "3.14"
 typeCheckingMode = "strict"
-reportMissingTypeStubs = true
-reportUnknownParameterType = true
-reportUnknownArgumentType = true
-reportUnknownLambdaType = true
-reportUnknownVariableType = true
-reportUnknownMemberType = true
+reportMissingTypeStubs = "error"
+reportUnknownParameterType = "error"
+reportUnknownArgumentType = "error"
+reportUnknownLambdaType = "error"
+reportUnknownVariableType = "error"
+reportUnknownMemberType = "error"
 
 [tool.pytest.ini_options]
 minversion = "8.0"
