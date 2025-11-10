@@ -8,7 +8,7 @@ dynamic = ["version"]
 description = "A Python async framework for NapCat"
 readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.14"
-license = "MIT"
+license = { file = "LICENSE" }
 authors = [{ name = "Your Name", email = "your.email@example.com" }]
 maintainers = [{ name = "Your Name", email = "your.email@example.com" }]
 keywords = ["napcat", "asyncio", "typed", "framework"]
