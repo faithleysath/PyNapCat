@@ -1,6 +1,12 @@
 """Test version information."""
 
+import sys
 import pynapcat
+
+
+def test_python_version():
+    """Test that Python version is 3.14+."""
+    assert sys.version_info >= (3, 14), "PyNapCat requires Python 3.14+"
 
 
 def test_version():
