@@ -44,7 +44,6 @@ Issues = "https://github.com/yourusername/PyNapCat/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/pynapcat"]
-include = ["src/pynapcat/py.typed"]
 
 [tool.hatch.version]
 path = "src/pynapcat/__init__.py"
