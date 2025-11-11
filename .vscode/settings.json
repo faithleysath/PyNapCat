@@ -41,7 +41,6 @@
     "**/dist": true,
     "**/*.egg-info": true
   },
-  "python.analysis.diagnosticMode": "workspace",
   "python.analysis.autoImportCompletions": true,
   "python.analysis.completeFunctionParens": true,
   "python.analysis.inlayHints.callArgumentNames": "all",
@@ -50,5 +49,6 @@
   "python.analysis.inlayHints.variableTypes": true,
   "python.analysis.languageServerMode": "full",
   "python.analysis.regenerateStdLibIndices": true,
-  "python.analysis.showOnlyDirectDependenciesInAutoImport": true
+  "python.analysis.showOnlyDirectDependenciesInAutoImport": true,
+  "python.analysis.generateWithTypeAnnotation": true
 }
